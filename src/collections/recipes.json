@@ -3,12 +3,12 @@
     {
       "title": "Amaranth With Yogurt & Kiwifruit",
       "mandatory_ingredients": [
-        "Amaranth",
+        "amaranth",
         "plain yogurt",
         "kiwifruit"
       ],
       "optional_ingredients": [
-        "Almonds",
+        "almonds",
         "nutmeg"
       ],
       "recipe": {
@@ -32,12 +32,12 @@
     {
       "title": "Amaranth With Yogurt & Pear",
       "mandatory_ingredients": [
-        "Amaranth",
+        "amaranth",
         "plain yogurt",
         "pears"
       ],
       "optional_ingredients": [
-        "Cocoa",
+        "cocoa",
         "carob flour"
       ],
       "recipe": {
@@ -60,12 +60,12 @@
     {
       "title": "Amaranth With Yogurt & Strawberries",
       "mandatory_ingredients": [
-        "Amaranth",
+        "amaranth",
         "plain yogurt",
         "strawberries"
       ],
       "optional_ingredients": [
-        "Hemp hearts"
+        "hemp hearts"
       ],
       "recipe": {
         "ingredients": [
@@ -87,12 +87,12 @@
     {
       "title": "Apple With Orange Fruit Salad",
       "mandatory_ingredients": [
-        "Apples",
+        "apples",
         "oranges",
         "bananas"
       ],
       "optional_ingredients": [
-        "Hazelnuts",
+        "hazelnuts",
         "cinnamon"
       ],
       "recipe": {
@@ -113,12 +113,12 @@
     {
       "title": "Apple Peanut Butter Toast",
       "mandatory_ingredients": [
-        "Bread",
+        "bread",
         "peanut butter",
         "apple"
       ],
       "optional_ingredients": [
-        "Cinnamon"
+        "cinnamon"
       ],
       "recipe": {
         "ingredients": [
@@ -138,12 +138,12 @@
     {
       "title": "Avocado Mushroom Toast",
       "mandatory_ingredients": [
-        "Cooked mushrooms",
+        "cooked mushrooms",
         "bread",
         "avocado"
       ],
       "optional_ingredients": [
-        "Spring onions",
+        "spring onions",
         "sesame seeds"
       ],
       "recipe": {
@@ -167,12 +167,12 @@
     {
       "title": "Avocado Tomato Toast",
       "mandatory_ingredients": [
-        "Bread",
+        "bread",
         "avocado",
         "tomato"
       ],
       "optional_ingredients": [
-        "Balsamic vinegar",
+        "balsamic vinegar",
         "parsley",
         "pine nuts"
       ],
@@ -196,12 +196,12 @@
     {
       "title": "Banana Peanut Butter Rolls",
       "mandatory_ingredients": [
-        "Tortilla wraps",
+        "tortilla wraps",
         "bananas",
         "peanut butter"
       ],
       "optional_ingredients": [
-        "Cinnamon"
+        "cinnamon"
       ],
       "recipe": {
         "ingredients": [
@@ -222,11 +222,11 @@
     {
       "title": "Banana Toast",
       "mandatory_ingredients": [
-        "Bread",
+        "bread",
         "bananas"
       ],
       "optional_ingredients": [
-        "Walnuts",
+        "walnuts",
         "cinnamon"
       ],
       "recipe": {
@@ -247,12 +247,12 @@
     {
       "title": "Black Bean Avocado Toast",
       "mandatory_ingredients": [
-        "Cooked black beans",
+        "cooked black beans",
         "bread",
         "avocado"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "hemp hearts"
       ],
       "recipe": {
@@ -274,14 +274,14 @@
     {
       "title": "Black Bean Brownies",
       "mandatory_ingredients": [
-        "Cooked black beans",
+        "cooked black beans",
         "oat flakes",
         "milk",
         "bananas",
         "cocoa powder"
       ],
       "optional_ingredients": [
-        "Maple syrup",
+        "maple syrup",
         "chocolate protein powder"
       ],
       "recipe": {
@@ -306,13 +306,13 @@
     {
       "title": "Chickpea Cucumber Toast",
       "mandatory_ingredients": [
-        "Cooked chickpeas",
+        "cooked chickpeas",
         "bread",
         "cucumbers",
         "tahini"
       ],
       "optional_ingredients": [
-        "Garlic",
+        "garlic",
         "sesame seeds"
       ],
       "recipe": {
@@ -336,12 +336,12 @@
     {
       "title": "Granola Yogurt",
       "mandatory_ingredients": [
-        "Rolled oats",
+        "rolled oats",
         "plain yogurt",
         "butter"
       ],
       "optional_ingredients": [
-        "Sunflower seeds",
+        "sunflower seeds",
         "coconut flakes",
         "cranberries",
         "hazelnuts"
@@ -370,12 +370,12 @@
     {
       "title": "Oatmeal With Apple & Raisins",
       "mandatory_ingredients": [
-        "Oat flakes",
+        "oat flakes",
         "apples",
         "raisins"
       ],
       "optional_ingredients": [
-        "Cinnamon",
+        "cinnamon",
         "nutmeg"
       ],
       "recipe": {
@@ -398,11 +398,11 @@
     {
       "title": "Oatmeal With Banana",
       "mandatory_ingredients": [
-        "Oat flakes",
+        "oat flakes",
         "bananas"
       ],
       "optional_ingredients": [
-        "Walnuts",
+        "walnuts",
         "cinnamon"
       ],
       "recipe": {
@@ -424,11 +424,11 @@
     {
       "title": "Oatmeal Blueberry Bake",
       "mandatory_ingredients": [
-        "Oat flakes",
+        "oat flakes",
         "frozen blueberries"
       ],
       "optional_ingredients": [
-        "Maple syrup",
+        "maple syrup",
         "walnuts",
         "powdered clove"
       ],
@@ -453,12 +453,12 @@
     {
       "title": "Chocolate Oatmeal With Coconut",
       "mandatory_ingredients": [
-        "Oat flakes",
+        "oat flakes",
         "cocoa",
         "coconut flakes"
       ],
       "optional_ingredients": [
-        "Carob flour"
+        "carob flour"
       ],
       "recipe": {
         "ingredients": [
@@ -478,13 +478,13 @@
     {
       "title": "Oat Peanut Butter Bars",
       "mandatory_ingredients": [
-        "Oat flakes",
+        "oat flakes",
         "peanut butter",
         "maple syrup",
         "water"
       ],
       "optional_ingredients": [
-        "Walnuts",
+        "walnuts",
         "dried cranberries"
       ],
       "recipe": {
@@ -508,12 +508,12 @@
     {
       "title": "Quinoa With Apple & Peanut Sauce",
       "mandatory_ingredients": [
-        "Quinoa",
+        "quinoa",
         "apples",
         "peanut butter"
       ],
       "optional_ingredients": [
-        "Cinnamon"
+        "cinnamon"
       ],
       "recipe": {
         "ingredients": [
@@ -536,12 +536,12 @@
     {
       "title": "Quinoa With Spiced Apple",
       "mandatory_ingredients": [
-        "Quinoa",
+        "quinoa",
         "apples",
         "cinnamon"
       ],
       "optional_ingredients": [
-        "Nutmeg",
+        "nutmeg",
         "clove"
       ],
       "recipe": {
@@ -565,12 +565,12 @@
     {
       "title": "Quinoa With Yogurt & Orange",
       "mandatory_ingredients": [
-        "Quinoa",
+        "quinoa",
         "plain yogurt",
         "oranges"
       ],
       "optional_ingredients": [
-        "Walnuts",
+        "walnuts",
         "cinnamon"
       ],
       "recipe": {
@@ -594,12 +594,12 @@
     {
       "title": "Sweet Potato Pancakes",
       "mandatory_ingredients": [
-        "Sweet potatoes",
+        "sweet potatoes",
         "water or milk",
         "flour"
       ],
       "optional_ingredients": [
-        "Baking powder",
+        "baking powder",
         "yogurt",
         "raisins",
         "fresh basil",
@@ -628,12 +628,12 @@
     {
       "title": "White Bean Tomato Toast",
       "mandatory_ingredients": [
-        "Cooked white beans",
+        "cooked white beans",
         "bread",
         "tomato"
       ],
       "optional_ingredients": [
-        "Balsamic vinegar",
+        "balsamic vinegar",
         "parsley",
         "pine nuts"
       ],
@@ -657,12 +657,12 @@
     {
       "title": "Avocado Chickpea Tortilla Wrap",
       "mandatory_ingredients": [
-        "Cooked chickpeas",
+        "cooked chickpeas",
         "tortilla wraps",
         "avocado"
       ],
       "optional_ingredients": [
-        "Red onion",
+        "red onion",
         "sesame seeds"
       ],
       "recipe": {
@@ -684,14 +684,14 @@
     {
       "title": "Black Bean Butternut Squash Enchiladas",
       "mandatory_ingredients": [
-        "Cooked black beans",
+        "cooked black beans",
         "butternut squash",
         "tortilla wraps",
         "tomato sauce",
         "molasses"
       ],
       "optional_ingredients": [
-        "Black pepper",
+        "black pepper",
         "cayenne pepper"
       ],
       "recipe": {
@@ -716,11 +716,11 @@
     {
       "title": "Black Beans With Rice",
       "mandatory_ingredients": [
-        "Cooked black beans",
+        "cooked black beans",
         "rice"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "spring onions",
         "cumin"
       ],
@@ -742,13 +742,13 @@
     {
       "title": "Black Beans With Rice & Corn",
       "mandatory_ingredients": [
-        "Cooked black beans",
+        "cooked black beans",
         "rice",
         "sweetcorn",
         "avocado"
       ],
       "optional_ingredients": [
-        "Salsa sauce",
+        "salsa sauce",
         "parsley",
         "cayenne pepper"
       ],
@@ -773,12 +773,12 @@
     {
       "title": "Black Bean Stuffed Sweet Potato",
       "mandatory_ingredients": [
-        "Cooked black beans",
+        "cooked black beans",
         "sweet potatoes",
         "tahini"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "cumin"
       ],
       "recipe": {
@@ -800,13 +800,13 @@
     {
       "title": "Black Bean Tortilla Wrap",
       "mandatory_ingredients": [
-        "Cooked black beans",
+        "cooked black beans",
         "tortilla wraps",
         "cucumbers",
         "plain yogurt"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "cumin",
         "garlic powder"
       ],
@@ -832,12 +832,12 @@
     {
       "title": "Broccoli With Mushrooms",
       "mandatory_ingredients": [
-        "Frozen broccoli",
+        "frozen broccoli",
         "mushrooms",
         "balsamic vinegar"
       ],
       "optional_ingredients": [
-        "Soy sauce",
+        "soy sauce",
         "sesame seeds"
       ],
       "recipe": {
@@ -860,13 +860,13 @@
     {
       "title": "Broccoli Stir-Fry",
       "mandatory_ingredients": [
-        "Fresh broccoli",
+        "fresh broccoli",
         "carrots",
         "bell peppers",
         "sesame oil"
       ],
       "optional_ingredients": [
-        "Garlic",
+        "garlic",
         "spring onions",
         "sesame seeds"
       ],
@@ -893,7 +893,7 @@
     {
       "title": "Chickpea Curry with Rice",
       "mandatory_ingredients": [
-        "Cooked chickpeas",
+        "cooked chickpeas",
         "rice",
         "onion",
         "tomato",
@@ -902,7 +902,7 @@
         "curry powder"
       ],
       "optional_ingredients": [
-        "Parsley"
+        "parsley"
       ],
       "recipe": {
         "ingredients": [
@@ -927,13 +927,13 @@
     {
       "title": "Chickpea Tortilla Wrap",
       "mandatory_ingredients": [
-        "Cooked chickpeas",
+        "cooked chickpeas",
         "tortilla wraps",
         "lettuce",
         "tahini"
       ],
       "optional_ingredients": [
-        "Garlic",
+        "garlic",
         "cayenne pepper"
       ],
       "recipe": {
@@ -956,12 +956,12 @@
     {
       "title": "Eggplant & Green Beans With Oranges",
       "mandatory_ingredients": [
-        "Eggplants",
+        "eggplants",
         "frozen green beans",
         "oranges"
       ],
       "optional_ingredients": [
-        "White cheese",
+        "white cheese",
         "pine nuts",
         "black pepper"
       ],
@@ -986,7 +986,7 @@
     {
       "title": "Eggplant Toast",
       "mandatory_ingredients": [
-        "Eggplants",
+        "eggplants",
         "bread",
         "lettuce",
         "tomato sauce",
@@ -994,7 +994,7 @@
         "smoked paprika"
       ],
       "optional_ingredients": [
-        "Liquid smoke",
+        "liquid smoke",
         "sesame seeds"
       ],
       "recipe": {
@@ -1022,14 +1022,14 @@
     {
       "title": "Eggplant & Zucchini In Tomato Sauce",
       "mandatory_ingredients": [
-        "Eggplants",
+        "eggplants",
         "zucchinis",
         "onion",
         "tomato sauce",
         "molasses"
       ],
       "optional_ingredients": [
-        "Cinnamon",
+        "cinnamon",
         "fresh basil",
         "sesame seeds"
       ],
@@ -1056,7 +1056,7 @@
     {
       "title": "Kidney Bean Chili",
       "mandatory_ingredients": [
-        "Cooked kidney beans",
+        "cooked kidney beans",
         "sweetcorn",
         "bell pepper",
         "onions",
@@ -1065,7 +1065,7 @@
         "chili powder"
       ],
       "optional_ingredients": [
-        "Parsley"
+        "parsley"
       ],
       "recipe": {
         "ingredients": [
@@ -1090,13 +1090,13 @@
     {
       "title": "Lemon Chickpea Rice",
       "mandatory_ingredients": [
-        "Cooked chickpeas",
+        "cooked chickpeas",
         "rice",
         "lemon",
         "tahini"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "sesame seeds"
       ],
       "recipe": {
@@ -1120,13 +1120,13 @@
     {
       "title": "Lentil Loaf",
       "mandatory_ingredients": [
-        "Lentils",
+        "lentils",
         "oat flakes",
         "tomato sauce",
         "molasses"
       ],
       "optional_ingredients": [
-        "Parsley"
+        "parsley"
       ],
       "recipe": {
         "ingredients": [
@@ -1148,11 +1148,11 @@
     {
       "title": "Mashed Cauliflower",
       "mandatory_ingredients": [
-        "Cauliflower",
+        "cauliflower",
         "milk"
       ],
       "optional_ingredients": [
-        "Cashews",
+        "cashews",
         "spring onions",
         "black pepper"
       ],
@@ -1175,14 +1175,14 @@
     {
       "title": "Mashed Cauliflower With Mushrooms",
       "mandatory_ingredients": [
-        "Cauliflower",
+        "cauliflower",
         "milk",
         "mushrooms",
         "bell pepper",
         "onion"
       ],
       "optional_ingredients": [
-        "Ginger powder",
+        "ginger powder",
         "garlic powder",
         "soy sauce",
         "sesame seeds"
@@ -1211,13 +1211,13 @@
     {
       "title": "Pasta With Cream Mushrooms",
       "mandatory_ingredients": [
-        "Pasta",
+        "pasta",
         "mushrooms",
         "milk",
         "flour"
       ],
       "optional_ingredients": [
-        "Spring onions"
+        "spring onions"
       ],
       "recipe": {
         "ingredients": [
@@ -1239,11 +1239,11 @@
     {
       "title": "Pasta With Peas",
       "mandatory_ingredients": [
-        "Pasta",
+        "pasta",
         "frozen peas"
       ],
       "optional_ingredients": [
-        "Fresh basil",
+        "fresh basil",
         "pine nuts"
       ],
       "recipe": {
@@ -1264,12 +1264,12 @@
     {
       "title": "Pasta With Zucchini & Peas",
       "mandatory_ingredients": [
-        "Pasta",
+        "pasta",
         "frozen peas",
         "zucchinis"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "pine nuts"
       ],
       "recipe": {
@@ -1291,13 +1291,13 @@
     {
       "title": "Peanut Noodles",
       "mandatory_ingredients": [
-        "Noodles",
+        "noodles",
         "frozen broccoli",
         "peanut butter",
         "soy sauce"
       ],
       "optional_ingredients": [
-        "Spring onions",
+        "spring onions",
         "sesame seeds",
         "black pepper",
         "cayenne pepper"
@@ -1326,11 +1326,11 @@
     {
       "title": "Potatoes With Broccoli",
       "mandatory_ingredients": [
-        "Potatoes",
+        "potatoes",
         "frozen broccoli"
       ],
       "optional_ingredients": [
-        "Cranberries",
+        "cranberries",
         "walnuts",
         "balsamic vinegar",
         "sesame seeds"
@@ -1357,13 +1357,13 @@
     {
       "title": "Potatoes With Eggplant",
       "mandatory_ingredients": [
-        "Potatoes",
+        "potatoes",
         "eggplants",
         "tomato sauce",
         "molasses"
       ],
       "optional_ingredients": [
-        "Pine nuts",
+        "pine nuts",
         "fresh basil"
       ],
       "recipe": {
@@ -1387,11 +1387,11 @@
     {
       "title": "Potatoes With Mushrooms",
       "mandatory_ingredients": [
-        "Potatoes",
+        "potatoes",
         "mushrooms"
       ],
       "optional_ingredients": [
-        "Plain yogurt",
+        "plain yogurt",
         "dried dill",
         "cayenne pepper"
       ],
@@ -1415,12 +1415,12 @@
     {
       "title": "Mashed Potatoes With Pickles",
       "mandatory_ingredients": [
-        "Potatoes",
+        "potatoes",
         "tahini",
         "pickles"
       ],
       "optional_ingredients": [
-        "Dried dill",
+        "dried dill",
         "sesame seeds"
       ],
       "recipe": {
@@ -1443,12 +1443,12 @@
     {
       "title": "Quinoa With Broccoli",
       "mandatory_ingredients": [
-        "Quinoa",
+        "quinoa",
         "frozen broccoli",
         "tahini"
       ],
       "optional_ingredients": [
-        "Sesame seeds",
+        "sesame seeds",
         "lemon"
       ],
       "recipe": {
@@ -1472,12 +1472,12 @@
     {
       "title": "Quinoa With Corn & Avocado",
       "mandatory_ingredients": [
-        "Quinoa",
+        "quinoa",
         "avocado",
         "sweetcorn"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "cayenne pepper"
       ],
       "recipe": {
@@ -1500,12 +1500,12 @@
     {
       "title": "Rice With Beetroot",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "cooked beetroot",
         "plain yogurt"
       ],
       "optional_ingredients": [
-        "Spring onions",
+        "spring onions",
         "sesame seeds"
       ],
       "recipe": {
@@ -1528,14 +1528,14 @@
     {
       "title": "Rice With Broccoli & Cashews",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "frozen broccoli",
         "cashews",
         "soy sauce",
         "maple syrup"
       ],
       "optional_ingredients": [
-        "Garlic powder",
+        "garlic powder",
         "sesame seeds"
       ],
       "recipe": {
@@ -1561,12 +1561,12 @@
     {
       "title": "Rice With Broccoli & Peas",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "frozen broccoli",
         "frozen peas"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "sesame seeds"
       ],
       "recipe": {
@@ -1589,12 +1589,12 @@
     {
       "title": "Rice With Butternut Squash",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "butternut squash",
         "onion"
       ],
       "optional_ingredients": [
-        "Dried cranberries",
+        "dried cranberries",
         "walnuts"
       ],
       "recipe": {
@@ -1617,12 +1617,12 @@
     {
       "title": "Rice With Cauliflower",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "cauliflower",
         "tahini"
       ],
       "optional_ingredients": [
-        "Spring onions",
+        "spring onions",
         "hemp hearts"
       ],
       "recipe": {
@@ -1646,14 +1646,14 @@
     {
       "title": "Rice With Cream Mushrooms",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "mushrooms",
         "milk",
         "onion",
         "flour"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "black pepper"
       ],
       "recipe": {
@@ -1678,12 +1678,12 @@
     {
       "title": "Rice With Peas & Corn",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "frozen peas",
         "frozen sweetcorn"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "cayenne pepper"
       ],
       "recipe": {
@@ -1706,12 +1706,12 @@
     {
       "title": "Rice With Zucchini",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "zucchinis",
         "onion"
       ],
       "optional_ingredients": [
-        "Dill",
+        "dill",
         "pumpkin seeds",
         "sunflower seeds"
       ],
@@ -1735,11 +1735,11 @@
     {
       "title": "Roasted Butternut Squash With Yogurt",
       "mandatory_ingredients": [
-        "Butternut squash",
+        "butternut squash",
         "plain yogurt"
       ],
       "optional_ingredients": [
-        "Spring onions",
+        "spring onions",
         "pumpkin seeds"
       ],
       "recipe": {
@@ -1760,13 +1760,13 @@
     {
       "title": "Spaghetti With Tomato & Eggplant",
       "mandatory_ingredients": [
-        "Spaghetti",
+        "spaghetti",
         "tomatoes",
         "eggplants",
         "molasses"
       ],
       "optional_ingredients": [
-        "Fresh basil",
+        "fresh basil",
         "cinnamon",
         "sesame seeds"
       ],
@@ -1793,11 +1793,11 @@
     {
       "title": "Spinach Rice",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "frozen spinach"
       ],
       "optional_ingredients": [
-        "Lemon",
+        "lemon",
         "sun-dried tomatoes",
         "sesame seeds"
       ],
@@ -1820,14 +1820,14 @@
     {
       "title": "Sushi Rice",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "seaweed flakes",
         "carrot",
         "cucumber",
         "rice vinegar"
       ],
       "optional_ingredients": [
-        "Umeboshi paste",
+        "umeboshi paste",
         "sesame seeds"
       ],
       "recipe": {
@@ -1853,14 +1853,14 @@
     {
       "title": "Sushi Rolls",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "rice vinegar",
         "nori sheets",
         "avocado",
         "cucumber"
       ],
       "optional_ingredients": [
-        "Sesame seeds",
+        "sesame seeds",
         "soy sauce"
       ],
       "recipe": {
@@ -1887,14 +1887,14 @@
     {
       "title": "Sweet & Sour Rice",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "bell peppers",
         "flour",
         "rice vinegar",
         "maple syrup"
       ],
       "optional_ingredients": [
-        "Spring onions",
+        "spring onions",
         "sesame seeds"
       ],
       "recipe": {
@@ -1921,12 +1921,12 @@
     {
       "title": "Sweet Potato With Cauliflower",
       "mandatory_ingredients": [
-        "Sweet potatoes",
+        "sweet potatoes",
         "cauliflower",
         "tahini"
       ],
       "optional_ingredients": [
-        "Cashews",
+        "cashews",
         "spring onion",
         "cumin"
       ],
@@ -1952,7 +1952,7 @@
     {
       "title": "Sweet Potato Curry With Rice",
       "mandatory_ingredients": [
-        "Sweet potatoes",
+        "sweet potatoes",
         "rice",
         "frozen spinach",
         "tomato sauce",
@@ -1961,7 +1961,7 @@
         "curry powder"
       ],
       "optional_ingredients": [
-        "Sesame seeds"
+        "sesame seeds"
       ],
       "recipe": {
         "ingredients": [
@@ -1987,12 +1987,12 @@
     {
       "title": "Sweet Potato Tortilla Wrap",
       "mandatory_ingredients": [
-        "Sweet potatoes",
+        "sweet potatoes",
         "tortilla wraps",
         "lettuce"
       ],
       "optional_ingredients": [
-        "Miso paste",
+        "miso paste",
         "spring onions",
         "sesame seeds"
       ],
@@ -2018,13 +2018,13 @@
     {
       "title": "Tomato Cabbage Rice",
       "mandatory_ingredients": [
-        "Rice",
+        "rice",
         "cabbage",
         "tomato sauce",
         "molasses"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "pumpkin seeds"
       ],
       "recipe": {
@@ -2048,13 +2048,13 @@
     {
       "title": "White Beans In Tomato Sauce",
       "mandatory_ingredients": [
-        "Cooked white beans",
+        "cooked white beans",
         "tomatoes",
         "onion",
         "molasses"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "pumpkin seeds"
       ],
       "recipe": {
@@ -2076,13 +2076,13 @@
     {
       "title": "White Bean Tortilla Wrap",
       "mandatory_ingredients": [
-        "Cooked white beans",
+        "cooked white beans",
         "tortilla wraps",
         "cucumber",
         "lettuce"
       ],
       "optional_ingredients": [
-        "Red onion",
+        "red onion",
         "cayenne pepper"
       ],
       "recipe": {
@@ -2105,7 +2105,7 @@
     {
       "title": "Yellow Lentils Curry With Rice",
       "mandatory_ingredients": [
-        "Yellow lentils",
+        "yellow lentils",
         "rice",
         "onion",
         "green pepper",
@@ -2115,7 +2115,7 @@
         "curry powder"
       ],
       "optional_ingredients": [
-        "Spring onions",
+        "spring onions",
         "cashew nuts"
       ],
       "recipe": {
@@ -2144,11 +2144,11 @@
     {
       "title": "Zucchini With Yogurt Sauce",
       "mandatory_ingredients": [
-        "Zucchinis",
+        "zucchinis",
         "plain yogurt"
       ],
       "optional_ingredients": [
-        "Spring onions",
+        "spring onions",
         "dill",
         "garlic",
         "black pepper"
@@ -2173,7 +2173,7 @@
     },
     {
       "title": "Spring Roll",
-      "ingredients": [
+      "mandatory_ingredients": [
         "minced chicken",
         "garlic",
         "shitake mushroom",
@@ -2184,10 +2184,10 @@
         "egg",
         "sweet chili sauce",
         "plum sauce",
-        "Oyster sauce",
-        "Soy sauce"
+        "oyster sauce",
+        "soy sauce"
       ],
-      "optionals": [],
+      "optional_ingredients": [],
       "recipe": {
         "ingredients": [
           "Minced chicken 200g",
@@ -2213,28 +2213,28 @@
     },
     {
       "title": "Pad Thai",
-      "ingredients": [
-        "Chicken",
-        "Garlic",
-        "Shallot",
-        "Pickled",
-        "Dried shrimp",
-        "Bean sprouts",
+      "mandatory_ingredients": [
+        "chicken",
+        "garlic",
+        "shallot",
+        "pickled",
+        "dried shrimp",
+        "bean sprouts",
         "carrot",
-        "Chives",
-        "Firm tofu",
-        "Egg",
-        "Cooking oil",
-        "Rice noodle",
-        "Lime",
-        "Chili flakes",
-        "Ground peanuts",
-        "Red chili oil",
-        "Fish sauce",
-        "Coconut sugar",
-        "Tamarind sauce"
+        "chives",
+        "firm tofu",
+        "egg",
+        "cooking oil",
+        "rice noodle",
+        "lime",
+        "chili flakes",
+        "ground peanuts",
+        "red chili oil",
+        "fish sauce",
+        "coconut sugar",
+        "tamarind sauce"
       ],
-      "optionals": [],
+      "optional_ingredients": [],
       "recipe": {
         "ingredients": [
           "Chicken 150g (bite size)",
@@ -2265,23 +2265,22 @@
     },
     {
       "title": "Cashew Chicken",
-      "ingredients": [
-        "Garlic 3 cloves (finely chopped)",
-        "Dried spru chili 2 (cut in big chunks)",
-        "Bell pepper (cut into cubes)",
-        "Chicken 150g (bite size)",
-        "Onion 1/2 (cut in quarters)",
-        "Carrot (thinly sliced)",
-        "Spring onion 1 stem (cut in big chunks)",
-        "Cashew nuts 20g",
-        "Cooking oil 1 tbsp",
-        "Oyster sauce 1 tbsp",
-        "Soy sauce 1/2 tbsp",
-        "Chili paste 1/2 - 1 tbsp",
-        "Sugar 1/2 tsp (optional)"
+      "mandatory_ingredients": [
+        "garlic",
+        "dried spru chili",
+        "bell pepper",
+        "chicken",
+        "onion",
+        "carrot",
+        "spring onion",
+        "cashew nuts",
+        "cooking oil",
+        "oyster sauce",
+        "soy sauce",
+        "chili paste"
       ],
-      "optionals": [
-        "Sugar"
+      "optional_ingredients": [
+        "sugar"
       ],
       "recipe": {
         "ingredients": [
@@ -2309,20 +2308,20 @@
     },
     {
       "title": "Holy Basil Chicken (Pad Krapow)",
-      "ingredients": [
-        "Chicken 150g (bite size)",
-        "Garlic 3 cloves",
-        "Red chili (to taste)",
-        "Hot basil 10-15 leaves",
-        "Egg 1",
-        "Cooking oil 1 tbsp",
-        "Spur chili (diagonal slice)",
-        "Sugar 1 tsp",
-        "Fish sauce 1/2 tbsp",
-        "Oyster sauce 1 tbsp",
-        "Dark soy sauce 1 tsp"
+      "mandatory_ingredients": [
+        "chicken",
+        "garlic",
+        "red chili",
+        "hot basil",
+        "egg",
+        "cooking oil",
+        "spur chili",
+        "sugar",
+        "fish sauce",
+        "oyster sauce",
+        "dark soy sauce"
       ],
-      "optionals": [],
+      "optional_ingredients": [],
       "recipe": {
         "ingredients": [
           "Chicken 150g (bite size)",
@@ -2349,22 +2348,22 @@
     },
     {
       "title": "Yellow Curry Chicken",
-      "ingredients": [
-        "Chicken 150g (bite size)",
-        "Garlic 3 cloves (finely chopped)",
-        "Onion 1/2 (cut in quarters)",
-        "Bell pepper (cut into cubes)",
-        "Spur chili (diagonal slices)",
-        "Chinese celery (cut in big chunks)",
-        "Spring onion (cut in big chunks)",
-        "Cooking oil 1 tbsp",
-        "Egg",
-        "Yellow curry powder 2 tsp",
-        "Oyster sauce 1 tbsp",
-        "Soy sauce 1/2 tsp",
-        "Chili paste 1/2 - 1 tbsp"
+      "mandatory_ingredients": [
+        "chicken",
+        "garlic",
+        "onion",
+        "bell pepper",
+        "spur chili",
+        "chinese celery",
+        "spring onion",
+        "cooking oil",
+        "egg",
+        "yellow curry powder",
+        "oyster sauce",
+        "soy sauce",
+        "chili paste"
       ],
-      "optionals": [],
+      "optional_ingredients": [],
       "recipe": {
         "ingredients": [
           "Chicken 150g (bite size)",
@@ -2393,32 +2392,31 @@
     },
     {
       "title": "Green Curry",
-      "ingredients": [
-        "Galangal 1 slice",
-        "Lemongrass 1 stem",
-        "Shallot 2-3 bulbs",
-        "Garlic 2-3 cloves",
-        "Kaffir lime skin 1 piece",
-        "Salt 1/2 tsp",
-        "Shrimp paste 1/2 tbsp (optional)",
-        "Coriander seeds 1 tsp",
-        "Cumin 1 tsp",
-        "Green chilies",
-        "Black pepper 1 tsp",
-        "Coriander root",
-        "Sweet basil",
-        "Chicken 50g (bite size)",
-        "Coconut milk 1 cup",
-        "Water",
-        "Thai eggplants",
-        "Kaffir lime leaf (take the stem off)",
-        "Spur chili",
-        "Sweet basil",
-        "Coconut sugar 1/2 tbsp",
-        "Fish sauce 1/2 tbsp"
+      "mandatory_ingredients": [
+        "galangal",
+        "lemongrass",
+        "shallot",
+        "garlic",
+        "kaffir lime skin",
+        "salt",
+        "coriander seeds",
+        "cumin",
+        "green chilies",
+        "black pepper",
+        "coriander root",
+        "sweet basil",
+        "chicken",
+        "coconut milk",
+        "water",
+        "thai eggplants",
+        "kaffir lime leaf",
+        "spur chili",
+        "sweet basil",
+        "coconut sugar",
+        "fish sauce"
       ],
-      "optionals": [
-        "Shrimp paste"
+      "optional_ingredients": [
+        "shrimp paste"
       ],
       "recipe": {
         "ingredients": [
@@ -2458,29 +2456,28 @@
     },
     {
       "title": "Red Curry",
-      "ingredients": [
-        "Galangal 1 slice",
-        "Lemongrass 1 stem",
-        "Shallot 2-3 bulbs",
-        "Carilo 2-3 olives",
-        "Kaffir lime skin 1 piece",
-        "Salt 1/2 tsp",
-        "Shrimp paste 1/2 tbsp (optional)",
-        "Coriander seeds 1 tsp",
-        "Dried red chili (boiled & blended)",
-        "Coriander root",
-        "Chicken 130g (bite size)",
-        "Coconut milk 1 cup",
-        "Water",
-        "Thai eggplant (cut in half)",
-        "Kaffir lime leaves (remove the stem)",
-        "Spur chili",
-        "Sweet basil",
-        "Coconut sugar 1/2 tbsp",
-        "Fish sauce 1/2 tbsp"
+      "mandatory_ingredients": [
+        "galangal",
+        "lemongrass",
+        "shallot",
+        "carilo",
+        "kaffir lime skin",
+        "salt",
+        "coriander seeds",
+        "dried red chili",
+        "coriander root",
+        "chicken",
+        "coconut milk",
+        "water",
+        "thai eggplant",
+        "kaffir lime leaves",
+        "spur chili",
+        "sweet basil",
+        "coconut sugar",
+        "fish sauce"
       ],
-      "optionals": [
-        "Shrimp paste"
+      "optional_ingredients": [
+        "shrimp paste"
       ],
       "recipe": {
         "ingredients": [
@@ -2517,36 +2514,35 @@
     },
     {
       "title": "Massaman Curry",
-      "ingredients": [
-        "Galangal 1 slice",
-        "Lemongrass 1 stem",
-        "Shallot 2-3 bulbs",
-        "Garlic 2-3 cloves",
-        "Kaffir lime skin 1 piece",
-        "Salt 1/2 tsp",
-        "Shrimp paste 1/2 tbsp (optional)",
-        "Coriander seeds 1 tsp",
-        "Cumin 1 tsp",
-        "Dried chili (boiled and blended)",
-        "Black pepper 1 tsp",
-        "Bayleaf 1 piece",
-        "Cinnamon 1 piece",
-        "Nutmeg 1/2 tsp or 2 pieces",
-        "Clove 2-3 seeds",
-        "Star anise 2-3 pieces",
-        "Chicken 150g (bite size)",
-        "Coconut milk 1 cup",
-        "Onion 1/2 (cut in quarters)",
-        "Boiled potatoes",
-        "Star anise & cinnamon",
-        "Cashew nuts 2 tbsp",
-        "Fish sauce 1/2 tbsp",
-        "Coconut sugar 1/2 tbsp",
-        "Tamarind sauce 1 tbsp",
-        "Water"
+      "mandatory_ingredients": [
+        "galangal",
+        "lemongrass",
+        "shallot",
+        "garlic",
+        "kaffir lime skin",
+        "salt",
+        "coriander seeds",
+        "cumin",
+        "dried chili",
+        "black pepper",
+        "bayleaf",
+        "cinnamon",
+        "nutmeg",
+        "clove",
+        "star anise",
+        "chicken",
+        "coconut milk",
+        "onion",
+        "boiled potatoes",
+        "star anise & cinnamon",
+        "cashew nuts",
+        "fish sauce",
+        "coconut sugar",
+        "tamarind sauce",
+        "water"
       ],
-      "optionals": [
-        "Shrimp paste"
+      "optional_ingredients": [
+        "shrimp paste"
       ],
       "recipe": {
         "ingredients": [
@@ -2590,34 +2586,32 @@
     },
     {
       "title": "Khao Soi Curry",
-      "ingredients": [
-        "Dried red chili (boiled & blended)",
-        "Shallot 2-3 bulbs",
-        "Garlic 2-3 cloves",
-        "Turmeric 1 piece",
-        "Ginger 1-2 slices",
-        "Salt 1/2 tsp",
-        "Kaffir lime skin 1 piece",
-        "Shrimp paste 1/2 tbsp (optional)",
-        "Coriander seed 1 tsp",
-        "Yellow curry powder 1/2 tbsp",
-        "Lemongrass",
-        "Chicken 150g (bite size)",
-        "Coconut milk 1 cup",
-        "Fish sauce 1/2 tbsp",
-        "Coconut sugar 1/2 tbsp",
-        "Water",
-        "Chili oil 1 tsp",
-        "Khao Soi noodles (boiled)",
-        "Crispy noodles (fried)",
-        "Coriander & spring onion (chopped)",
-        "Pickled mustard green",
-        "Shallots",
-        "Spicy chili oil (condiment)",
-        "Lime"
+      "mandatory_ingredients": [
+        "dried red chili",
+        "shallot",
+        "garlic",
+        "turmeric",
+        "ginger",
+        "salt",
+        "kaffir lime skin",
+        "coriander seed",
+        "yellow curry powder",
+        "lemongrass",
+        "chicken",
+        "coconut milk",
+        "fish sauce",
+        "coconut sugar",
+        "water",
+        "chili oil",
+        "khao soi noodles",
+        "crispy noodles",
+        "coriander & spring onion",
+        "pickled mustard green",
+        "shallots",
+        "lime"
       ],
-      "optionals": [
-        "Shrimp paste"
+      "optional_ingredients": [
+        "shrimp paste"
       ],
       "recipe": {
         "ingredients": [
@@ -2657,20 +2651,18 @@
     },
     {
       "title": "Mango Sticky Rice",
-      "ingredients": [
-        "Sticky rice",
-        "Pandan leaf (optional)",
-        "Coconut milk",
-        "Coconut sugar",
-        "Food coloring (optional)",
-        "Salt",
-        "Corn starch",
-        "Mango",
-        "Crispy mung bean"
+      "mandatory_ingredients": [
+        "sticky rice",
+        "coconut milk",
+        "coconut sugar",
+        "salt",
+        "corn starch",
+        "mango",
+        "crispy mung bean"
       ],
-      "optionals": [
-        "Pandan leaf",
-        "Food coloring"
+      "optional_ingredients": [
+        "pandan leaf",
+        "food coloring"
       ],
       "recipe": {
         "ingredients": [
@@ -2701,12 +2693,12 @@
     {
       "title": "Beetroot Salad",
       "mandatory_ingredients": [
-        "Cooked beetroot",
+        "cooked beetroot",
         "balsamic vinegar",
         "molasses"
       ],
       "optional_ingredients": [
-        "White cheese",
+        "white cheese",
         "parsley",
         "garlic",
         "walnuts"
@@ -2732,12 +2724,12 @@
     {
       "title": "Black Bean Salad",
       "mandatory_ingredients": [
-        "Cooked black beans",
+        "cooked black beans",
         "tomatoes",
         "onion"
       ],
       "optional_ingredients": [
-        "Balsamic vinegar",
+        "balsamic vinegar",
         "pine nuts",
         "parsley"
       ],
@@ -2761,14 +2753,14 @@
     {
       "title": "Broccoli Carrot Salad",
       "mandatory_ingredients": [
-        "Fresh broccoli",
+        "fresh broccoli",
         "carrot",
         "rice vinegar",
         "maple syrup",
         "mustard"
       ],
       "optional_ingredients": [
-        "Nutritional yeast",
+        "nutritional yeast",
         "garlic powder",
         "almond flakes",
         "black pepper"
@@ -2798,13 +2790,13 @@
     {
       "title": "Carrot Cucumber Ribbon Salad",
       "mandatory_ingredients": [
-        "Carrots",
+        "carrots",
         "cucumbers",
         "balsamic vinegar",
         "molasses"
       ],
       "optional_ingredients": [
-        "Sesame seeds"
+        "sesame seeds"
       ],
       "recipe": {
         "ingredients": [
@@ -2826,14 +2818,14 @@
     {
       "title": "Chickpea Salad",
       "mandatory_ingredients": [
-        "Cooked chickpeas",
+        "cooked chickpeas",
         "tomatoes",
         "cucumbers",
         "onion",
         "balsamic vinegar"
       ],
       "optional_ingredients": [
-        "Parsley",
+        "parsley",
         "black pepper"
       ],
       "recipe": {
@@ -2858,12 +2850,12 @@
     {
       "title": "Cucumber Pepper Salad",
       "mandatory_ingredients": [
-        "Cucumbers",
+        "cucumbers",
         "bell peppers",
         "balsamic vinegar"
       ],
       "optional_ingredients": [
-        "Raisins",
+        "raisins",
         "sunflower seeds",
         "olive oil"
       ],
@@ -2887,12 +2879,12 @@
     {
       "title": "Lentil Arugula Salad",
       "mandatory_ingredients": [
-        "Lentils",
+        "lentils",
         "fresh arugula",
         "balsamic vinegar"
       ],
       "optional_ingredients": [
-        "Sunflower seeds",
+        "sunflower seeds",
         "pumpkin seeds"
       ],
       "recipe": {
@@ -2915,13 +2907,13 @@
     {
       "title": "Lentil Red Cabbage Salad",
       "mandatory_ingredients": [
-        "Lentils",
+        "lentils",
         "red cabbage",
         "carrots",
         "balsamic vinegar"
       ],
       "optional_ingredients": [
-        "Sunflower seeds",
+        "sunflower seeds",
         "spring onions"
       ],
       "recipe": {
@@ -2946,11 +2938,11 @@
     {
       "title": "Lettuce Cucumber Salad",
       "mandatory_ingredients": [
-        "Lettuce",
+        "lettuce",
         "cucumbers"
       ],
       "optional_ingredients": [
-        "Olive oil",
+        "olive oil",
         "sunflower seeds",
         "chopped walnuts"
       ],
@@ -2974,12 +2966,12 @@
     {
       "title": "Pasta Salad",
       "mandatory_ingredients": [
-        "Pasta",
+        "pasta",
         "tomatoes",
         "cucumbers"
       ],
       "optional_ingredients": [
-        "Balsamic vinegar",
+        "balsamic vinegar",
         "green olives",
         "oregano"
       ],
@@ -3005,13 +2997,13 @@
     {
       "title": "Quinoa Salad",
       "mandatory_ingredients": [
-        "Quinoa",
+        "quinoa",
         "bell peppers",
         "cucumbers",
         "balsamic vinegar"
       ],
       "optional_ingredients": [
-        "Parsley"
+        "parsley"
       ],
       "recipe": {
         "ingredients": [
@@ -3034,12 +3026,12 @@
     {
       "title": "Red Cabbage Carrot Salad",
       "mandatory_ingredients": [
-        "Red cabbage",
+        "red cabbage",
         "carrots",
         "balsamic vinegar"
       ],
       "optional_ingredients": [
-        "Cashews"
+        "cashews"
       ],
       "recipe": {
         "ingredients": [
@@ -3059,11 +3051,11 @@
     {
       "title": "Tomato Cucumber Salad",
       "mandatory_ingredients": [
-        "Tomatoes",
+        "tomatoes",
         "cucumbers"
       ],
       "optional_ingredients": [
-        "Olives",
+        "olives",
         "olive oil",
         "oregano"
       ],
@@ -3086,14 +3078,14 @@
     {
       "title": "White Bean Salad",
       "mandatory_ingredients": [
-        "Cooked white beans",
+        "cooked white beans",
         "tomatoes",
         "onion",
         "balsamic vinegar",
         "molasses"
       ],
       "optional_ingredients": [
-        "Pine nuts",
+        "pine nuts",
         "parsley"
       ],
       "recipe": {
@@ -3116,23 +3108,23 @@
     },
     {
       "title": "Fresh Spring Roll",
-      "ingredients": [
-        "Shredded chicken 200g",
-        "Firm tofu (cut into cubes)",
-        "Garlic 3 cloves",
-        "Mushroom (shredded)",
-        "Shredded carrot & cabbage",
-        "Green vegetable & edible flowers",
-        "Cucumber (cut into sticks)",
-        "Black and white sesame seeds",
-        "Sweet chili sauce",
-        "Plum sauce",
-        "Rice paper",
-        "Bell pepper (cut into sticks)",
-        "Soy sauce 1 tbsp",
-        "Oyster sauce 1.5 tbsp"
+      "mandatory_ingredients": [
+        "shredded chicken",
+        "firm tofu",
+        "garlic",
+        "mushroom",
+        "shredded carrot & cabbage",
+        "green vegetable & edible flowers",
+        "cucumber",
+        "black and white sesame seeds",
+        "sweet chili sauce",
+        "plum sauce",
+        "rice paper",
+        "bell pepper",
+        "soy sauce",
+        "oyster sauce"
       ],
-      "optionals": [],
+      "optional_ingredients": [],
       "recipe": {
         "ingredients": [
           "Shredded chicken 200g",
@@ -3160,20 +3152,20 @@
     },
     {
       "title": "Larb",
-      "ingredients": [
-        "Minced chicken 150g",
-        "Mint",
-        "Spring onion",
-        "Shallot (thin slice)",
-        "Sawtooth coriander",
-        "Coriander",
-        "Lime juice 1 tbsp",
-        "Fish sauce 1 tbsp",
-        "Sugar 1 tsp",
-        "Chili flakes",
-        "Roasted rice powder"
+      "mandatory_ingredients": [
+        "minced chicken",
+        "mint",
+        "spring onion",
+        "shallot",
+        "sawtooth coriander",
+        "coriander",
+        "lime juice",
+        "fish sauce",
+        "sugar",
+        "chili flakes",
+        "roasted rice powder"
       ],
-      "optionals": [],
+      "optional_ingredients": [],
       "recipe": {
         "ingredients": [
           "Minced chicken 150g",
@@ -3198,19 +3190,19 @@
     },
     {
       "title": "Som Tum (Green Papaya Salad)",
-      "ingredients": [
-        "Shredded papaya & carrot",
-        "Chili (to taste)",
-        "Garlic 2 cloves",
-        "Dried shrimp",
-        "Peanuts",
-        "Fish sauce 1/2 tbsp",
-        "Coconut sugar 1/2 tbsp",
-        "Lime",
-        "Tomato 1 (cut in half or quarters)",
-        "Long beans (2 inches long)"
+      "mandatory_ingredients": [
+        "shredded papaya & carrot",
+        "chili",
+        "garlic",
+        "dried shrimp",
+        "peanuts",
+        "fish sauce",
+        "coconut sugar",
+        "lime",
+        "tomato",
+        "long beans"
       ],
-      "optionals": [],
+      "optional_ingredients": [],
       "recipe": {
         "ingredients": [
           "Shredded papaya & carrot",
@@ -3237,7 +3229,7 @@
     {
       "title": "Beetroot Soup",
       "mandatory_ingredients": [
-        "Cabbage",
+        "cabbage",
         "cooked beetroot",
         "potatoes",
         "onion",
@@ -3245,7 +3237,7 @@
         "molasses"
       ],
       "optional_ingredients": [
-        "Sesame seeds"
+        "sesame seeds"
       ],
       "recipe": {
         "ingredients": [
@@ -3269,13 +3261,13 @@
     {
       "title": "Black Bean Soup",
       "mandatory_ingredients": [
-        "Cooked black beans",
+        "cooked black beans",
         "onions",
         "tomato sauce",
         "molasses"
       ],
       "optional_ingredients": [
-        "Avocado",
+        "avocado",
         "parsley",
         "black pepper",
         "cayenne pepper"
@@ -3303,7 +3295,7 @@
     {
       "title": "Broccoli Soup",
       "mandatory_ingredients": [
-        "Frozen broccoli",
+        "frozen broccoli",
         "bell peppers",
         "coconut milk",
         "tomato sauce",
@@ -3311,7 +3303,7 @@
         "curry powder"
       ],
       "optional_ingredients": [
-        "Sesame seeds"
+        "sesame seeds"
       ],
       "recipe": {
         "ingredients": [
@@ -3336,14 +3328,14 @@
     {
       "title": "Cabbage Soup",
       "mandatory_ingredients": [
-        "Cabbage",
+        "cabbage",
         "tomatoes",
         "onion",
         "tomato sauce",
         "molasses"
       ],
       "optional_ingredients": [
-        "Garlic"
+        "garlic"
       ],
       "recipe": {
         "ingredients": [
@@ -3365,13 +3357,13 @@
     {
       "title": "Lentil Soup",
       "mandatory_ingredients": [
-        "Lentils",
+        "lentils",
         "onion",
         "tomato sauce",
         "molasses"
       ],
       "optional_ingredients": [
-        "Bay leaves",
+        "bay leaves",
         "soy sauce",
         "balsamic vinegar"
       ],
@@ -3397,12 +3389,12 @@
     {
       "title": "Miso Noodle Soup",
       "mandatory_ingredients": [
-        "Noodles",
+        "noodles",
         "seaweed flakes",
         "miso paste"
       ],
       "optional_ingredients": [
-        "Spring onions",
+        "spring onions",
         "sesame seeds"
       ],
       "recipe": {
@@ -3427,13 +3419,13 @@
     {
       "title": "Mushroom Soup",
       "mandatory_ingredients": [
-        "Mushrooms",
+        "mushrooms",
         "onion",
         "milk",
         "flour"
       ],
       "optional_ingredients": [
-        "Thyme",
+        "thyme",
         "black pepper"
       ],
       "recipe": {
@@ -3458,11 +3450,11 @@
     {
       "title": "Potato & Leek Soup",
       "mandatory_ingredients": [
-        "Potatoes",
+        "potatoes",
         "leeks"
       ],
       "optional_ingredients": [
-        "Bay leaves"
+        "bay leaves"
       ],
       "recipe": {
         "ingredients": [
@@ -3482,13 +3474,13 @@
     {
       "title": "Tomato Pasta Soup",
       "mandatory_ingredients": [
-        "Tomatoes",
+        "tomatoes",
         "onion",
         "molasses",
         "pasta"
       ],
       "optional_ingredients": [
-        "Heavy cream",
+        "heavy cream",
         "parsley"
       ],
       "recipe": {
@@ -3512,14 +3504,14 @@
     {
       "title": "White Bean Soup",
       "mandatory_ingredients": [
-        "Cooked white beans",
+        "cooked white beans",
         "carrots",
         "onion",
         "tomato sauce",
         "molasses"
       ],
       "optional_ingredients": [
-        "Rosemary"
+        "rosemary"
       ],
       "recipe": {
         "ingredients": [
@@ -3543,13 +3535,13 @@
     {
       "title": "Zucchini Soup",
       "mandatory_ingredients": [
-        "Zucchinis",
+        "zucchinis",
         "frozen peas",
         "onion",
         "carrot"
       ],
       "optional_ingredients": [
-        "Dried dill"
+        "dried dill"
       ],
       "recipe": {
         "ingredients": [
@@ -3566,32 +3558,29 @@
           "Bring to boil, lower heat, cover and simmer for 30 minutes."
         ]
       }
-    }
-  ],
-  "Soup": [
+    },
     {
       "title": "Tom Yum Goong",
-      "ingredients": [
-        "Galangal 2 slices",
-        "Lemongrass 1 stem (crushed)",
-        "Kaffir lime leaf 2-3 leaves",
-        "Chili (to taste)",
-        "Shallot 2 bulbs (crushed)",
-        "Onion 1/2 (cut in quarters)",
-        "Mushroom (tear or cut in half)",
-        "Fish sauce 1 tbsp",
-        "Sugar 1 tsp",
-        "Water",
-        "Coriander & sawtooth coriander",
-        "Spring onion",
-        "Lime",
-        "Chili paste 1 tbsp",
-        "Chili oil 1 tsp",
-        "Evaporated milk",
-        "Prawn"
+      "mandatory_ingredients": [
+        "galangal",
+        "lemongrass",
+        "kaffir lime leaf",
+        "chili",
+        "shallot",
+        "onion",
+        "mushroom",
+        "fish sauce",
+        "sugar",
+        "water",
+        "coriander & sawtooth coriander",
+        "spring onion",
+        "lime",
+        "chili paste",
+        "chili oil",
+        "prawn"
       ],
-      "optionals": [
-        "Evaporated milk"
+      "optional_ingredients": [
+        "evaporated milk"
       ],
       "recipe": {
         "ingredients": [
@@ -3624,25 +3613,25 @@
     },
     {
       "title": "Tom Kha",
-      "ingredients": [
-        "Galangal 2 slices",
-        "Lemongrass 1 stem",
-        "Kaffir lime leaf 2-3",
-        "Chili 1 (to taste)",
-        "Shallot 2 bulbs",
-        "Onion 1/2 (cut in quarters)",
-        "Mushrooms",
-        "Fish sauce 1 tbsp",
-        "Sugar 1 tsp",
-        "Water",
-        "Coriander & sawtooth coriander",
-        "Spring onion",
-        "Lime",
-        "Chicken 150g (bite size)",
-        "Chili oil",
-        "Coconut milk 1 cup"
+      "mandatory_ingredients": [
+        "galangal",
+        "lemongrass",
+        "kaffir lime leaf",
+        "chili",
+        "shallot",
+        "onion",
+        "mushrooms",
+        "fish sauce",
+        "sugar",
+        "water",
+        "coriander & sawtooth coriander",
+        "spring onion",
+        "lime",
+        "chicken",
+        "chili oil",
+        "coconut milk"
       ],
-      "optionals": [],
+      "optional_ingredients": [],
       "recipe": {
         "ingredients": [
           "Galangal 2 slices",
@@ -3675,27 +3664,27 @@
     },
     {
       "title": "Tom Yum Gai",
-      "ingredients": [
-        "Lemongrass",
-        "Kaffir lime leaves",
-        "Shallot",
-        "Chili",
-        "Galangal",
-        "Chicken 150g (bite size)",
-        "Mushrooms",
-        "Tomatoes",
-        "Onions",
-        "Fish sauce",
-        "Sugar",
-        "Chili flakes",
-        "Rice powder",
-        "Hot basil",
-        "Sweet basil",
-        "Lime",
-        "Coriander & sawtooth coriander",
-        "Spring onion"
+      "mandatory_ingredients": [
+        "lemongrass",
+        "kaffir lime leaves",
+        "shallot",
+        "chili",
+        "galangal",
+        "chicken",
+        "mushrooms",
+        "tomatoes",
+        "onions",
+        "fish sauce",
+        "sugar",
+        "chili flakes",
+        "rice powder",
+        "hot basil",
+        "sweet basil",
+        "lime",
+        "coriander & sawtooth coriander",
+        "spring onion"
       ],
-      "optionals": [],
+      "optional_ingredients": [],
       "recipe": {
         "ingredients": [
           "Lemongrass",
@@ -3729,21 +3718,21 @@
     },
     {
       "title": "Gaeng Som (Sour Curry)",
-      "ingredients": [
-        "Galangal 2 slices",
-        "Lemongrass 1 stem (crushed)",
-        "Kaffir lime leaf 2-3",
-        "Chili (to taste)",
-        "Shallot 2 bulbs (crushed)",
-        "Turmeric 2 pieces (crushed)",
-        "Fish sauce 1 tbsp",
-        "Sugar 1 tbsp",
-        "Tamarind sauce 1 tbsp",
-        "Water",
-        "Chicken 150g (bite size)",
-        "Garlic 2-3 cloves (smashed)"
+      "mandatory_ingredients": [
+        "galangal",
+        "lemongrass",
+        "kaffir lime leaf",
+        "chili",
+        "shallot",
+        "turmeric",
+        "fish sauce",
+        "sugar",
+        "tamarind sauce",
+        "water",
+        "chicken",
+        "garlic"
       ],
-      "optionals": [],
+      "optional_ingredients": [],
       "recipe": {
         "ingredients": [
           "Galangal 2 slices",
