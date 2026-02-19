@@ -8,26 +8,25 @@ function CategorySection({title, dishes}) {
   return (
       <section style={{marginBottom: '20px'}}>
         {/* Category Button */}
-        <button className="category-button" onClick={() => setIsOpen(!isOpen)}>
+        <button className="meal-button" onClick={() => setIsOpen(!isOpen)}>
           {title}
-          <span>{isOpen ? '▲' : '▼'}</span>
+          <span className={"meal-arrow"}>{isOpen ? '▲' : '▼'}</span>
         </button>
 
         {/* Recipe List (shown when category is open) */}
         {isOpen && (
             <div className="recipe-grid">
               {dishes.map((dish, index) => (
-                  <div
+                  <button
                       key={index}
                       className="recipe-card"
-                      onClick={() => setSelectedRecipe(
-                          dish)} // Click to open popup
+                      onClick={() => setSelectedRecipe(dish)}
                   >
                     <h3 style={{
                       color: '#e67e22',
                       cursor: 'pointer'
                     }}>{dish.title}</h3>
-                  </div>
+                  </button>
               ))}
             </div>
         )}
