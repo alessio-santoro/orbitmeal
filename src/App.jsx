@@ -1,18 +1,23 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faShuffle} from '@fortawesome/free-solid-svg-icons';
+import {faShuffle, faArrowDownAZ} from '@fortawesome/free-solid-svg-icons';
 import {useState} from 'react';
 import recipes from './collections/recipes.json';
 import CategorySection from './utils/CategorySection.jsx';
 import logo from './assets/logo.png';
-import {getShuffledData} from "./utils/SortUtils.jsx";
+import {getShuffledData, getSortedData} from "./utils/SortUtils.jsx";
 
 function App() {
 
-  const [shuffledRecipes, setShuffledRecipes] = useState(
-      getShuffledData(recipes));
+  const [displayRecipes, setDisplayRecipes] = useState(getSortedData(recipes));
 
-  const handleShuffleClick = () => {
-    setShuffledRecipes(getShuffledData(recipes));
+  const handleShuffle = () => {
+    const shuffled = getShuffledData(recipes);
+
+    setDisplayRecipes(shuffled);
+  };
+
+  const handleReset = () => {
+    setDisplayRecipes(getSortedData(recipes));
   };
 
   return (
@@ -26,15 +31,23 @@ function App() {
           <img src={logo} alt="Logo" style={{width: '60px'}}/>
           Orbitmeal
         </h1>
+        <div className="button-group">
         <button
-            onClick={handleShuffleClick}
-            className="shuffle-button"
+            onClick={handleShuffle}
+            className="sort-button"
         >
           <FontAwesomeIcon icon={faShuffle} style={{marginRight: '8px'}}/>
-          <span className="button-text"> Shuffle Recipes</span>
+          <span className="button-text"> Shuffle </span>
         </button>
-        <br/>
-        {Object.entries(shuffledRecipes).map(([categoryName, dishes]) => (
+
+        <button onClick={handleReset}
+                className="sort-button">
+          <FontAwesomeIcon icon={faArrowDownAZ} style={{marginRight: '8px'}}/>
+          <span className="button-text"> Sort A-Z </span>
+        </button>
+        </div>
+        {/*<br/>*/}
+        {Object.entries(displayRecipes).map(([categoryName, dishes]) => (
             <CategorySection
                 key={categoryName}
                 title={categoryName}

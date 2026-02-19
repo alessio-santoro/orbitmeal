@@ -1,4 +1,5 @@
 const shuffleArray = (array) => {
+  if (!Array.isArray(array)) return []; // Safety check
   const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -6,10 +7,21 @@ const shuffleArray = (array) => {
   }
   return shuffled;
 };
-export const getShuffledData = (recipes) => {
+
+export const getShuffledData = (allRecipes) => {
   const newRecipes = {};
-  for (const [category, list] of Object.entries(recipes)) {
+  Object.entries(allRecipes).forEach(([category, list]) => {
     newRecipes[category] = shuffleArray(list);
-  }
+  });
   return newRecipes;
+};
+
+export const getSortedData = (data) => {
+  const sorted = {};
+  Object.keys(data).forEach(category => {
+    sorted[category] = [...data[category]].sort((a, b) =>
+        a.title.localeCompare(b.title)
+    );
+  });
+  return sorted;
 };
