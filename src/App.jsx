@@ -1,44 +1,32 @@
+import {useState} from 'react';
 import recipes from './collections/recipes.json';
-import logo from './assets/logo.png';
-
 import CategorySection from './utils/CategorySection.jsx';
-import {useMemo} from "react";
-
-const shuffleArray = (array) => {
-  const shuffled = [...array]; // Create a copy so we don't mutate the original
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-};
+import logo from './assets/logo.png';
+import {getShuffledData} from "./utils/SortUtils.jsx";
 
 function App() {
 
-  const shuffledRecipes = useMemo(() => {
-    const newRecipes = {};
+  const [shuffledRecipes, setShuffledRecipes] = useState(getShuffledData(recipes));
 
-    for (const [category, list] of Object.entries(recipes)) {
-      newRecipes[category] = shuffleArray(list);
-    }
-
-    return newRecipes;
-  }, []); // The empty array [] ensures this only runs once
+  const handleShuffleClick = () => {
+    setShuffledRecipes(getShuffledData(recipes));
+  };
 
   return (
-      <div>
-        <h1 style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '3px',
-          color: '#2b7652'
-        }}>
-          <img
-              src={logo}
-              alt="Cookbook Logo"
-              style={{width: '100px', height: '100px', borderRadius: '8px'}}/>
-          orbitmeal
+      <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
+        <h1 style={{ display: 'flex', alignItems: 'center', gap: '10px', margin: 0 }}>
+          <img src={logo} alt="Logo" style={{ width: '60px' }} />
+          Orbitmeal
         </h1>
+        <br/>
+        <button
+            onClick={handleShuffleClick}
+            className="shuffle-button"
+        >
+          🔀 Shuffle Recipes
+        </button>
+        <br/>
+
         {Object.entries(shuffledRecipes).map(([categoryName, dishes]) => (
             <CategorySection
                 key={categoryName}
