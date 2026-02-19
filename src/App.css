@@ -5,70 +5,42 @@
   text-align: center;
 }
 
-.logo {
-  height: 5.5em;
-  padding: 1em;
-  transition: transform 0.25s ease, filter 0.25s ease;
-}
-
-.logo:hover {
-  transform: scale(1.05);
-  filter: drop-shadow(0 10px 25px rgba(44, 120, 80, 0.2));
-}
-
-
-.card {
-  padding: 2rem;
-  background: var(--color-surface);
-  border-radius: 14px;
-  box-shadow: 0 8px 30px rgba(44, 120, 80, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 35px rgba(44, 120, 80, 0.1);
-}
-
-.read-the-docs {
-  color: var(--color-text-muted);
-}
-
-.category-button {
+.meal-button {
   width: 100%;
   text-align: left;
   padding: 18px 20px;
-  font-size: 1.25rem;
+  /* Increase size and weight */
+  font-size: 1.75rem;
+  font-weight: 700;
   text-transform: capitalize;
   cursor: pointer;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 12px;
-
   transition: all 0.2s ease;
+  /* Add a bit of bottom margin to separate from cards */
+  margin-bottom: 10px;
 }
 
-.category-button:hover {
+.meal-button:hover {
   background-color: var(--color-primary-verylight);
   border-color: var(--color-primary-light);
   transform: translateY(-2px);
 }
 
-.category-arrow {
+.meal-arrow {
   font-size: 1.1rem;
   color: var(--color-primary);
   transition: transform 0.2s ease;
 }
 
-.category-button:hover .category-arrow {
+.meal-button:hover .meal-arrow {
   transform: translateX(4px);
 }
-/* Dark background behind the popup */
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -79,10 +51,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* Ensure it's on top of everything */
+  z-index: 1000;
 }
 
-/* The white box in the center */
 .modal-content {
   background: white;
   padding: 30px;
@@ -90,7 +61,7 @@
   max-width: 500px;
   width: 90%;
   max-height: 80vh;
-  overflow-y: auto; /* Scroll if recipe is long */
+  overflow-y: auto;
   position: relative;
 }
 
@@ -110,77 +81,38 @@
   border-radius: 8px;
   background: white;
   transition: transform 0.2s;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
+
+.recipe-card h3 {
+  margin: 0;
 }
 
 .recipe-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-/*
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-.category-button {
-  width: 100%;
-  text-align: left;
-  padding: 15px;
-  font-size: 1.5rem;
-  text-transform: capitalize;
-  cursor: pointer;
+.shuffle-button {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #eee;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  transition: background-color 0.2s; !* Smooth color change *!
+  gap: 8px;
 }
 
-.category-button:hover {
-  background-color: #e0e0e0;
-}
+@media (max-width: 768px) {
+  .button-text {
+    display: none; /* Hides the text on mobile */
+  }
 
-.category-arrow {
-  font-size: 1.2rem;
-  color: #666;
-}*/
+  .shuffle-button {
+    padding: 12px; /* Make it a square/circle button on mobile */
+    border-radius: 50%; /* Optional: make it round on mobile */
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+  }
+}
