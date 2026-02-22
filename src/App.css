@@ -9,7 +9,6 @@
   width: 100%;
   text-align: left;
   padding: 18px 20px;
-  /* Increase size and weight */
   font-size: 1.75rem;
   font-weight: 700;
   text-transform: capitalize;
@@ -21,7 +20,6 @@
   border: 1px solid var(--color-border);
   border-radius: 12px;
   transition: all 0.2s ease;
-  /* Add a bit of bottom margin to separate from cards */
   margin-bottom: 10px;
 }
 
@@ -114,6 +112,28 @@
   margin-top: 15px;
   margin-bottom: 20px;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: 2px solid var(--color-border);
+  border-radius: 25px; /* Pill shape */
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.search-input:focus {
+  border-color: #2b7652; /* Matches your theme color */
+  box-shadow: 0 0 8px rgba(43, 118, 82, 0.2);
 }
 
 @media (max-width: 768px) {

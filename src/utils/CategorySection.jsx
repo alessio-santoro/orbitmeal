@@ -1,19 +1,17 @@
 import {useState} from 'react';
-import '../App.css'; // Make sure your CSS is linked
+import '../App.css';
 
 function CategorySection({title, dishes}) {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedRecipe, setSelectedRecipe] = useState(null); // New state for the popup
+  const [selectedRecipe, setSelectedRecipe] = useState(null);
 
   return (
       <section style={{marginBottom: '20px'}}>
-        {/* Category Button */}
         <button className="meal-button" onClick={() => setIsOpen(!isOpen)}>
           {title}
           <span className={"meal-arrow"}>{isOpen ? '▲' : '▼'}</span>
         </button>
 
-        {/* Recipe List (shown when category is open) */}
         {isOpen && (
             <div className="recipe-grid">
               {dishes.map((dish, index) => (
