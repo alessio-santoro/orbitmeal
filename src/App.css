@@ -121,9 +121,9 @@
 }
 
 .search-input {
-  width: 100%;
+  width: 85%;
   padding: 12px 20px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border: 2px solid var(--color-border);
   border-radius: 25px; /* Pill shape */
   outline: none;

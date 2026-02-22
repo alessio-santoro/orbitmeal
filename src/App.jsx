@@ -2,13 +2,17 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {
   faShuffle,
   faArrowDownAZ,
-  /*faCalculator*/
+  faCalculator
 } from '@fortawesome/free-solid-svg-icons';
 import {useState, useMemo} from 'react';
 import recipes from './collections/recipes.json';
 import CategorySection from './utils/CategorySection.jsx';
 import logo from './assets/logo.png';
-import {getShuffledData, getSortedData} from "./utils/SortUtils.jsx";
+import {
+  getShuffledData,
+  getSortedData,
+  getFilteredData
+} from "./utils/SortUtils.jsx";
 
 function App() {
 
@@ -23,21 +27,7 @@ function App() {
     setDisplayRecipes(getSortedData(recipes));
   };
   const filteredRecipes = useMemo(() => {
-    const query = searchQuery.toLowerCase();
-    const filtered = {};
-
-    Object.entries(displayRecipes).forEach(([category, dishes]) => {
-      const matchingDishes = dishes.filter(dish =>
-          dish.title.toLowerCase().includes(query) ||
-          dish.recipe.ingredients.some(ing => ing.toLowerCase().includes(query))
-      );
-
-      if (matchingDishes.length > 0) {
-        filtered[category] = matchingDishes;
-      }
-    });
-
-    return filtered;
+    return getFilteredData(displayRecipes, searchQuery);
   }, [searchQuery, displayRecipes]);
 
   return (
@@ -52,6 +42,7 @@ function App() {
           Orbitmeal
         </h1>
         <div className="app-container">
+          <br />
           <div className="search-container">
             <input
                 type="text"
@@ -66,11 +57,15 @@ function App() {
               <FontAwesomeIcon icon={faShuffle} style={{marginRight: '8px'}}/>
               <span className="button-text"> Shuffle </span>
             </button>
-
             <button onClick={handleReset} className="sort-button">
               <FontAwesomeIcon icon={faArrowDownAZ}
                                style={{marginRight: '8px'}}/>
               <span className="button-text"> Sort A-Z </span>
+            </button>
+            <button onClick={handleReset} className="sort-button">
+              <FontAwesomeIcon icon={faCalculator}
+                               style={{marginRight: '16px'}}/>
+              <span className="button-text"> Launch Planner </span>
             </button>
           </div>
           {Object.entries(filteredRecipes).map(([categoryName, dishes]) => (
