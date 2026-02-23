@@ -285,6 +285,11 @@
   background-color: #dee2e6;
 }
 
+.checklist-item input {
+  cursor: pointer;
+  accent-color: #2b7652;
+}
+
 @media (max-width: 768px) {
   .button-text {
     display: none;

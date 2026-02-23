@@ -1,4 +1,4 @@
-export const general = (recipes) => {
+export const getIngredients = (recipes) => {
   const ingredientsSet = new Set();
 
   Object.values(recipes).forEach(categoryList => {
@@ -9,5 +9,5 @@ export const general = (recipes) => {
     });
   });
 
-  return Array.from(ingredientsSet).sort();
+  return Array.from(ingredientsSet).sort((a, b) => a.localeCompare(b));
 };

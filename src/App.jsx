@@ -6,13 +6,13 @@ import {
   faCalculator
 } from '@fortawesome/free-solid-svg-icons';
 import CategorySection from './utils/CategorySection.jsx';
-import LaunchPlanner from "./utils/LaunchPlanner.jsx";
+import LaunchPlanner from "./launch_planner/LaunchPlanner.jsx";
 import {
   getShuffledData,
   getSortedData,
   getFilteredData
 } from "./utils/SortUtils.jsx";
-import recipes from './collections/recipes.json';
+import recipes from './assets/collections/recipes.json';
 import logo from './assets/logo.png';
 
 function App() {
