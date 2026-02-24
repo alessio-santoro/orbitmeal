@@ -24,6 +24,8 @@ function LaunchPlanner({recipes, onClose}) {
 
   const [results, setResults] = useState([]);
 
+  const [viewingRecipe, setViewingRecipe] = useState(null);
+
   const handleToggle = (ing) => {
     setCheckedIngredients(prev => ({
       ...prev, [ing]: !prev[ing]
@@ -109,7 +111,8 @@ function LaunchPlanner({recipes, onClose}) {
                 <div className="checklist-container">
                   {filteredAndSortedIngredients.map(ing => (
                       <label key={ing}
-                             className={`checklist-item ${checkedIngredients[ing]? 'is-checked' : ''}`}>
+                             className={`checklist-item ${checkedIngredients[ing]
+                                 ? 'is-checked' : ''}`}>
                         <input
                             type="checkbox"
                             checked={checkedIngredients[ing] || false}
@@ -162,8 +165,13 @@ function LaunchPlanner({recipes, onClose}) {
                     <h2>Selected Recipes</h2>
                     <ul>
                       {results.plan.map((dish, idx) => (
-                          <li key={idx}>
-                            <strong>{dish.title}</strong>
+                          <li key={idx} className="recipe-result-item">
+                            <button
+                                className="recipe-title-link"
+                                onClick={() => setViewingRecipe(dish)}
+                            >
+                              <strong>{dish.title}</strong>
+                            </button>
                           </li>
                       ))}
                     </ul>
@@ -191,8 +199,41 @@ function LaunchPlanner({recipes, onClose}) {
                 </div>
               </div>
           )}
+          {viewingRecipe && (
+              <div className="recipe-detail-overlay">
+                <div className="recipe-detail-card">
+                  <button className="close-icon"
+                          onClick={() => setViewingRecipe(null)}>
+                    <FontAwesomeIcon icon={faXmark}/>
+                  </button>
+
+                  <h2>{viewingRecipe.title}</h2>
+                  <hr/>
+
+                  <div className="detail-content">
+                    <h3>Ingredients:</h3>
+                    <ul>
+                      {/* Using your defensive logic for ingredients */}
+                      {(viewingRecipe.recipe?.mandatory_ingredients
+                          || viewingRecipe.mandatory_ingredients || []).map(
+                          (ing, i) => (
+                              <li key={i}>{ing}</li>
+                          ))}
+                    </ul>
+
+                    <h3>Instructions:</h3>
+                    <ol>
+                      {viewingRecipe.recipe?.steps?.map((step, i) => (
+                          <li key={i}>{step}</li>
+                      )) || <li>No instructions available for this recipe.</li>}
+                    </ol>
+                  </div>
+                </div>
+              </div>
+          )}
         </div>
       </div>
+
   );
 }
 
