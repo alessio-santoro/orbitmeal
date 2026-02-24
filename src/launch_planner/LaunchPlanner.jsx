@@ -1,10 +1,7 @@
 import React, {useMemo, useState} from 'react';
 import PropTypes from "prop-types";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {
-  faUtensils,
-  faXmark
-} from '@fortawesome/free-solid-svg-icons';
+import {faUtensils, faXmark} from '@fortawesome/free-solid-svg-icons';
 import {getIngredients} from "./GetIngredients.jsx";
 import {generateMealPlan} from "./GenerateMealPlan.jsx";
 
@@ -80,7 +77,6 @@ function LaunchPlanner({recipes, onClose}) {
       soups: soups
     };
     const results = generateMealPlan(recipes, pantry, counts);
-    console.log("Calculated results: ", results);
     setResults(results);
     setStep(3);
   };
@@ -182,7 +178,8 @@ function LaunchPlanner({recipes, onClose}) {
                     <div className="shop-list-container">
                       <ul className="simple-shop-list">
                         {results.shopList.map((item) => (
-                            <li key={item.toString()} className="shop-item-text">
+                            <li key={item.toString()}
+                                className="shop-item-text">
                               {item}
                             </li>
                         ))}
