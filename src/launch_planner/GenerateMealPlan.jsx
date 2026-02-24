@@ -25,21 +25,21 @@ export const generateMealPlan = (recipes, pantry, counts) => {
     const shuffledCategory = [...categoryRecipes].sort(() => Math.random() - 0.5);
 
     const scored = shuffledCategory.map(dish => {
-      const mandatory = (dish.mandatory_ingredients || []).map(i => i.toLowerCase().trim());
+      // Inside the map function of your algorithm
+      const mandatory = (dish.recipe && dish.mandatory_ingredients)
+          ? dish.mandatory_ingredients.map(i => i.toLowerCase().trim())
+          : [];
 
       const owned = mandatory.filter(ing => pantrySet.has(ing));
       const missing = mandatory.filter(ing => !pantrySet.has(ing));
 
-      // We use a score where 1.0 is a perfect match
       const score = mandatory.length > 0 ? owned.length / mandatory.length : 0;
 
       return { ...dish, score, missing };
     });
 
-    // STEP C: Sort by score (descending)
-    // Since we shuffled in Step A, ties in score are now broken randomly!
     const topMatches = scored
-        .sort((a, b) => b.score - a.score)
+        .toSorted((a, b) => b.score - a.score)
         .slice(0, requestedCount);
 
     selectedRecipes.push(...topMatches);
@@ -52,6 +52,6 @@ export const generateMealPlan = (recipes, pantry, counts) => {
 
   return {
     plan: selectedRecipes,
-    shopList: Array.from(shoppingList).sort()
+    shopList: Array.from(shoppingList).sort((a, b) => a.localeCompare(b))
   };
 };

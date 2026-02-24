@@ -30,28 +30,19 @@ function CategorySection({title, dishes}) {
         )}
 
         {selectedRecipe && (
-            <div className="modal-overlay"
-                 onClick={() => setSelectedRecipe(null)}>
-              <div className="modal-content"
-                   onClick={(e) => e.stopPropagation()}>
+            <div className="modal-overlay" onClick={() => setSelectedRecipe(null)}>
+              <div className="modal-content" role="button" onClick={(e) => e.stopPropagation()} >
                 <button className="close-button"
                         onClick={() => setSelectedRecipe(null)}>×
                 </button>
-
                 <h2>{selectedRecipe.title}</h2>
-
                 <h3>Ingredients:</h3>
                 <ul>
-                  {selectedRecipe.recipe.ingredients.map((ing, i) => (
-                      <li key={i}>{ing}</li>
-                  ))}
+                  {selectedRecipe.recipe.ingredients.map((ing, i) => (<li key={i}>{ing}</li>))}
                 </ul>
-
                 <h3>Steps:</h3>
                 <ol>
-                  {selectedRecipe.recipe.steps.map((step, i) => (
-                      <li key={i}>{step}</li>
-                  ))}
+                  {selectedRecipe.recipe.steps.map((step, i) => (<li key={i}>{step}</li>))}
                 </ol>
               </div>
             </div>

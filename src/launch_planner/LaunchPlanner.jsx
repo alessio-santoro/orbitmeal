@@ -1,4 +1,5 @@
 import React, {useMemo, useState} from 'react';
+import PropTypes from "prop-types";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {
   faUtensils,
@@ -18,7 +19,7 @@ function LaunchPlanner({recipes, onClose}) {
     return breakfasts + meals + soups + salads;
   }
   const allIngredients = useMemo(() => getIngredients(recipes), [recipes]);
-  const [checkedIngredients, setCheckedIngredients] = useState([]);
+  const [checkedIngredients, setCheckedIngredients] = useState({});
   const [searchTerm, setSearchTerm] = useState("");
 
   const [results, setResults] = useState([]);
@@ -76,8 +77,9 @@ function LaunchPlanner({recipes, onClose}) {
       salads: salads,
       soups: soups
     };
-
-    setResults(generateMealPlan(recipes, pantry, counts));
+    const results = generateMealPlan(recipes, pantry, counts);
+    console.log("Calculated results: ", results);
+    setResults(results);
     setStep(3);
   };
 
@@ -107,11 +109,10 @@ function LaunchPlanner({recipes, onClose}) {
                 <div className="checklist-container">
                   {filteredAndSortedIngredients.map(ing => (
                       <label key={ing}
-                             className={`checklist-item ${checkedIngredients[ing]
-                                 ? 'is-checked' : ''}`}>
+                             className={`checklist-item ${checkedIngredients[ing]? 'is-checked' : ''}`}>
                         <input
                             type="checkbox"
-                            checked={checkedIngredients[ing]}
+                            checked={checkedIngredients[ing] || false}
                             onChange={() => handleToggle(ing)}
                         />
                         <span>{ing}</span>
@@ -153,12 +154,12 @@ function LaunchPlanner({recipes, onClose}) {
                 </div>
               </div>
           )}
-          {step === 3 && (
+          {step === 3 && results?.shopList && (
               <div className="planner-step results-view">
-                <h2>Your Custom Plan</h2>
+                <h1>Your Custom Plan</h1>
                 <div className="results-container">
                   <section className="meal-results">
-                    <h3>Selected Recipes</h3>
+                    <h2>Selected Recipes</h2>
                     <ul>
                       {results.plan.map((dish, idx) => (
                           <li key={idx}>
@@ -167,14 +168,17 @@ function LaunchPlanner({recipes, onClose}) {
                       ))}
                     </ul>
                   </section>
-
                   <section className="shop-list">
-                    <h3>Shopping List</h3>
-                    <p>You need to buy these items:</p>
-                    <div className="checklist-container shop-list-items">
-                      {results.shopList.map(item => (
-                          <label key={item} className="checklist-item" />
-                      ))}
+                    <br/>
+                    <h2>Shopping List</h2>
+                    <div className="shop-list-container">
+                      <ul className="simple-shop-list">
+                        {results.shopList.map((item, idx) => (
+                            <li key={idx} className="shop-item-text">
+                              {item}
+                            </li>
+                        ))}
+                      </ul>
                     </div>
                   </section>
                 </div>
@@ -192,4 +196,19 @@ function LaunchPlanner({recipes, onClose}) {
   );
 }
 
+LaunchPlanner.propTypes = {
+  recipes: PropTypes.objectOf(
+      PropTypes.arrayOf(
+          PropTypes.shape({
+            title: PropTypes.string.isRequired,
+            recipe: PropTypes.shape({
+              mandatory_ingredients: PropTypes.arrayOf(PropTypes.string),
+              ingredients: PropTypes.arrayOf(PropTypes.string),
+              steps: PropTypes.arrayOf(PropTypes.string)
+            })
+          })
+      )
+  ).isRequired,
+  onClose: PropTypes.func.isRequired,
+};
 export default LaunchPlanner;

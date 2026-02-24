@@ -151,6 +151,9 @@
 }
 
 .planner-card {
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
   background: white;
   width: 100%;
   max-width: 600px;
@@ -158,6 +161,36 @@
   padding: 40px;
   position: relative;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.results-view {
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.results-view::-webkit-scrollbar {
+  width: 6px;
+}
+
+.results-view::-webkit-scrollbar-thumb {
+  background-color: #cbd5e0;
+  border-radius: 10px;
+}
+
+.results-view::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.planner-step.results-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.results-container {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
 }
 
 .planner-step textarea {
@@ -301,5 +334,13 @@
     justify-content: center;
     width: 50px;
     height: 50px;
+  }
+
+  .results-container {
+    flex-direction: column;
+  }
+
+  .meal-results, .shop-list {
+    width: 100%;
   }
 }
