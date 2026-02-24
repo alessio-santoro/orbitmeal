@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import '../App.css';
+import PropTypes from "prop-types";
 
 function CategorySection({title, dishes}) {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,9 +15,9 @@ function CategorySection({title, dishes}) {
 
         {isOpen && (
             <div className="recipe-grid">
-              {dishes.map((dish, index) => (
+              {dishes.map((dish) => (
                   <button
-                      key={index}
+                      key={dish.title.hash}
                       className="recipe-card"
                       onClick={() => setSelectedRecipe(dish)}
                   >
@@ -30,25 +31,35 @@ function CategorySection({title, dishes}) {
         )}
 
         {selectedRecipe && (
-            <div className="modal-overlay" onClick={() => setSelectedRecipe(null)}>
-              <div className="modal-content" role="button" onClick={(e) => e.stopPropagation()} >
+            <div className="modal-overlay"
+                 onClick={() => setSelectedRecipe(null)}>
+              <div className="modal-content" role="button"
+                   onClick={(e) => e.stopPropagation()}>
                 <button className="close-button"
                         onClick={() => setSelectedRecipe(null)}>×
                 </button>
                 <h2>{selectedRecipe.title}</h2>
                 <h3>Ingredients:</h3>
                 <ul>
-                  {selectedRecipe.recipe.ingredients.map((ing, i) => (<li key={i}>{ing}</li>))}
+                  {selectedRecipe.recipe.ingredients.map(
+                      (ing) => (<li key={ing.hash}>{ing}</li>))}
                 </ul>
                 <h3>Steps:</h3>
                 <ol>
-                  {selectedRecipe.recipe.steps.map((step, i) => (<li key={i}>{step}</li>))}
+                  {selectedRecipe.recipe.steps.map((step) => (
+                      <li key={step.hash}>{step}</li>
+                  ))}
                 </ol>
               </div>
             </div>
         )}
       </section>
   );
+}
+
+CategorySection.propTypes = {
+  title: PropTypes.string,
+  dishes: PropTypes.array
 }
 
 export default CategorySection;

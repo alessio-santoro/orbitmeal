@@ -164,8 +164,8 @@ function LaunchPlanner({recipes, onClose}) {
                   <section className="meal-results">
                     <h2>Selected Recipes</h2>
                     <ul>
-                      {results.plan.map((dish, idx) => (
-                          <li key={idx} className="recipe-result-item">
+                      {results.plan.map((dish) => (
+                          <li key={dish.title} className="recipe-result-item">
                             <button
                                 className="recipe-title-link"
                                 onClick={() => setViewingRecipe(dish)}
@@ -181,8 +181,8 @@ function LaunchPlanner({recipes, onClose}) {
                     <h2>Shopping List</h2>
                     <div className="shop-list-container">
                       <ul className="simple-shop-list">
-                        {results.shopList.map((item, idx) => (
-                            <li key={idx} className="shop-item-text">
+                        {results.shopList.map((item) => (
+                            <li key={item.toString()} className="shop-item-text">
                               {item}
                             </li>
                         ))}
@@ -216,15 +216,15 @@ function LaunchPlanner({recipes, onClose}) {
                       {/* Using your defensive logic for ingredients */}
                       {(viewingRecipe.recipe?.mandatory_ingredients
                           || viewingRecipe.mandatory_ingredients || []).map(
-                          (ing, i) => (
-                              <li key={i}>{ing}</li>
+                          (ing) => (
+                              <li key={ing.toString()}>{ing}</li>
                           ))}
                     </ul>
 
                     <h3>Instructions:</h3>
                     <ol>
-                      {viewingRecipe.recipe?.steps?.map((step, i) => (
-                          <li key={i}>{step}</li>
+                      {viewingRecipe.recipe?.steps?.map((step) => (
+                          <li key={step.hash}>{step}</li>
                       )) || <li>No instructions available for this recipe.</li>}
                     </ol>
                   </div>
