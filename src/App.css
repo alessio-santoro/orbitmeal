@@ -71,6 +71,15 @@
   border: none;
   font-size: 2rem;
   cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 10px 16px;
+  gap: 12px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .recipe-card {
@@ -210,14 +219,17 @@
 }
 
 .close-icon {
-  position: absolute;
-  top: 20px;
-  right: 20px;
   background: none;
   border: none;
-  font-size: 1.5rem;
   cursor: pointer;
   color: #888;
+  font-size: 1.8rem;
+  padding: 0;
+  line-height: 1;
+}
+
+.close-icon:hover {
+  color: #333;
 }
 
 .checklist-container {
@@ -352,16 +364,60 @@
   width: 90%;
   max-height: 80%;
   overflow-y: auto;
-  padding: 30px;
   background: white;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   text-align: left;
+  position: relative;
+  padding-top: 50px;
 }
 
 .detail-content h3 {
   margin-top: 20px;
   color: #444;
+}
+
+.pdf-download-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #2b7652;
+  font-size: 1.5rem;
+  opacity: 0.8;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 10px 16px;
+  gap: 12px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.pdf-download-btn:hover {
+  opacity: 1;
+  color: #c0392b;
+  transform: scale(1.1);
+}
+
+.recipe-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recipe-detail-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 20;
+  border-bottom: 1px solid #eee;
 }
 
 @media (max-width: 768px) {
