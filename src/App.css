@@ -159,19 +159,6 @@
   padding: 20px;
 }
 
-.planner-card {
-  max-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  background: white;
-  width: 100%;
-  max-width: 600px;
-  border-radius: 20px;
-  padding: 40px;
-  position: relative;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-}
-
 .results-view {
   overflow-y: auto;
   padding-right: 10px;
@@ -190,32 +177,20 @@
   background: transparent;
 }
 
-.planner-step.results-view {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
 
 .results-container {
   flex: 1;
   overflow-y: auto;
-  margin-bottom: 20px;
-}
-
-.planner-step textarea {
-  width: 100%;
-  height: 120px;
-  padding: 15px;
-  border-radius: 12px;
-  border: 1px solid #ddd;
-  margin: 20px 0;
-  font-family: inherit;
+  margin-bottom: 10px;
+  -webkit-overflow-scrolling: touch;
 }
 
 .planner-actions {
+  margin-top: auto;
+  padding-top: 10px;
+  background: white;
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
 }
 
 .close-icon {
@@ -232,17 +207,47 @@
   color: #333;
 }
 
+.planner-card {
+  max-height: 90vh;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 95%;
+  max-width: 600px;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.planner-step-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
 .checklist-container {
-  max-height: 300px;
-  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto !important;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 10px;
-  padding: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 8px;
+  padding: 10px;
   border: 1px solid #eee;
   border-radius: 8px;
   background: #fafafa;
-  margin: 20px 0;
+  margin: 15px 0;
+}
+
+.planner-card {
+  height: 90vh;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .checklist-container::-webkit-scrollbar {
@@ -420,9 +425,49 @@
   border-bottom: 1px solid #eee;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+
+  .planner-card {
+    height: 100%;
+    max-height: 80vh;
+    padding: 15px;
+  }
+
+  .planner-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .checklist-container {
+    grid-template-columns: 1fr 1fr;
+    min-height: 0;
+  }
+
   .button-text {
     display: none;
+  }
+
+  .planner-search-container {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .planner-search {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .clear-all-btn {
+    width: 100%;
+    height: 35px;
+  }
+
+  .planner-actions {
+    margin-top: auto;
+    padding-top: 10px;
+    background: white;
+    flex-direction: row;
+    gap: 10px;
   }
 
   .sort-button {
@@ -439,5 +484,9 @@
 
   .meal-results, .shop-list {
     width: 100%;
+  }
+
+  .planner-overlay {
+    padding: 10px;
   }
 }

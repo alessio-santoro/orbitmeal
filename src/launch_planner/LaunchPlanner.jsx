@@ -87,7 +87,7 @@ function LaunchPlanner({recipes, onClose}) {
           <button className="close-icon" onClick={onClose}>
             <FontAwesomeIcon icon={faXmark}/>
           </button>
-          {step === 1 && (<div className="planner-step">
+          {step === 1 && (<div className="planner-step planner-step-container">
                 <h2>Step 1: What's in your pantry?</h2>
                 <p>Select the items you already have at home:</p>
                 <div className="planner-search-container">
