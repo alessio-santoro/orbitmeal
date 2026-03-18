@@ -1,9 +1,16 @@
 import React, {useMemo, useState} from 'react';
 import PropTypes from "prop-types";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faUtensils, faXmark} from '@fortawesome/free-solid-svg-icons';
+import {
+  faFilePdf,
+  faUtensils,
+  faXmark,
+  faArrowRotateLeft,
+  faSquareCheck
+} from '@fortawesome/free-solid-svg-icons';
 import {getIngredients} from "./GetIngredients.jsx";
 import {generateMealPlan} from "./GenerateMealPlan.jsx";
+import {downloadFullPlan} from "../utils/PdfGenerator.jsx";
 
 function LaunchPlanner({recipes, onClose}) {
 
@@ -189,10 +196,18 @@ function LaunchPlanner({recipes, onClose}) {
                 </div>
 
                 <div className="planner-actions">
-                  <button className="back-btn" onClick={() => setStep(1)}>Start
-                    Over
+                  <button className="back-btn" onClick={() => setStep(1)}>
+                    <FontAwesomeIcon icon={faArrowRotateLeft}/>
+                    Restart
                   </button>
-                  <button className="next-btn" onClick={onClose}>Finish</button>
+                  <button className="next-btn"
+                          onClick={() => downloadFullPlan(results)}>
+                    <FontAwesomeIcon icon={faFilePdf}/> Download
+                  </button>
+                  <button className="next-btn" onClick={onClose}>
+                    <FontAwesomeIcon icon={faSquareCheck}/>
+                    Finish
+                  </button>
                 </div>
               </div>
           )}

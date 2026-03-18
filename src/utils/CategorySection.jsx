@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import {faFilePdf, faXmark} from "@fortawesome/free-solid-svg-icons";
 import {downloadRecipePDF} from "./PdfGenerator.jsx";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {downloadFullPlan} from "./PdfGenerator.jsx";
 
 function CategorySection({title, dishes}) {
   const [isOpen, setIsOpen] = useState(false);
