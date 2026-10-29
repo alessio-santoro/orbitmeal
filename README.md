@@ -1,16 +1,50 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
+# Orbitmeal
+**Orbitmeal** is a smart, localized cookbook designed to find the minimal shop list for my groceries.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It uses a weighted-random algorithm to suggest recipes based on actual inventory, reducing food waste and decision fatigue.
+## Features
+* **"Launch Planner" Logic**: 
+Select the ingredients you already have, and the app calculates which recipes you are closest to completing for the amount of meals you need to cover.
+* Choose exactly how many breakfasts, lunches/dinners, salads, and soups you need for your cycle.
+* **Smart Scoring Algorithm**: Uses a randomized shuffle and match-percentage scoring to ensure variety and relevance in suggestions.
+* **PDF Export**: Download formatted recipe cards directly to your device for offline kitchen use.
+* **Responsive Design**: Functional on desktop and mobile, featuring a sleek, modern modal-based UI.
+## Tech-stack
+* **Core**: React (Vite)
+* **State Management**: React Hooks (`useState`, `useMemo`)
+* **Styling**: Custom CSS3 with Flexbox/Grid systems
+* **PDF Generation**: `jsPDF`
+* **Icons**: FontAwesome
+## Getting Started
+### Prerequisites
+* Node.js (v18 or higher recommended)
+* npm or yarn
+### Installation
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/orbitmeal.git
+cd orbitmeal
+```
+2. **Install dependencies**
+```bash
+npm install
+```
+3. **Run the development server**
+```bash
+npm run dev
+```
+4. **Build for production**
+```bash
+npm run build
+```
+## How the Algorithm Works
+The "Launch Planner" doesn't just pick recipes at random. It follows a three-step process:
+1. **Shuffle**: To avoid alphabetical bias, it shuffles the category list.
+2. **Score**: It compares the `mandatory_ingredients` of each recipe against your `pantrySet`.
+3. **Sort & Slice**: It sorts by the highest match percentage and takes only the number of meals you requested.
+## Next features
+* Download meals plan pdf
+* when in the start page, add more recipes together to print them in the same document 
+---
